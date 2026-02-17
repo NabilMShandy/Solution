@@ -1,5 +1,5 @@
 def duplicate_count(text):
-    # one occur to checking an aelement whether is occurs once or else
+    # one occur to checking an element whether is occurs once or else
     oneOccur = set()
     # duplicate using set to adding the element if its exist
     duplicate = set()
