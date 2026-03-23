@@ -21,10 +21,6 @@ def alphabet_position(text):
     alphaOnly = []
     for char in text.lower():
         if char.isalpha():
-            alphaOnly.append(char)
-                
-    alphaPosition = []
-    for x in alphaOnly:
-        alphaPosition.append(mydicts[x])
+            alphaOnly.append(mydicts[char])
         
-    return " ".join(map(str, alphaPosition))
+    return " ".join(map(str, alphaOnly))
