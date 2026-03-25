@@ -11,8 +11,8 @@
 # All letters will be lowercase and all inputs will be valid.
 
 
-# solution
-
+# Solution
+# maybe O(n^2)
 def high(x):
     mydicts = {}
     xSplitter = x.split()
