@@ -19,10 +19,7 @@ int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
     int a, b;
     cin >> a >> b;
-    int faktor1;
-    int faktor2;
-    int newfaktor;
-
+    
     while(b!=0){
         int temp = b;
         b = a%b;
