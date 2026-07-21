@@ -25,9 +25,12 @@
 class Solution:
     def findDuplicates(self, nums):
         from collections import Counter
+        
         duplicate = []
         hash_nums = Counter(sorted(nums))
+        
         for i in hash_nums:
             if hash_nums[i] > 1:
                 duplicate.append(i)
+                
         return duplicate
